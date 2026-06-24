@@ -1,0 +1,31 @@
+﻿# Modèle Spark sauvegardé
+models/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+
+# Environnement virtuel
+venv/
+env/
+
+# Fichiers temporaires
+*.zip
+*.tmp
+.env
+
+# Logs Spark
+spark-warehouse/
+derby.log
+metastore_db/
+
+# IDE
+.vscode/
+.idea/
+
+# Dataset (trop lourd pour GitHub)
+data/
